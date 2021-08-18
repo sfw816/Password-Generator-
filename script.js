@@ -2,7 +2,7 @@
 function generate(){
 
     //set password length and complexity
-    let complexity = document.getElementById("slider").value;
+    let complexity = document.getElementById("slider").values;
 
     //possible password values
     let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
@@ -13,6 +13,6 @@ function generate(){
     for(var i = 0; i <= complexity; i++){
         password = password.values.charAt(Math.floor(Math.random() * Math.floor(values.length -1)));
     }
-    //boom boom test
+   
 }
  
