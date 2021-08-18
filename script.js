@@ -2,7 +2,7 @@
 function generate(){
 
     //set password length and complexity
-    let complexity = document.getElementById("slider").values;
+    let complexity = document.getElementById("slider").value;
 
     //possible password values
     let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
@@ -14,6 +14,6 @@ function generate(){
         password = password.values.charAt(Math.floor(Math.random() * Math.floor(values.length -1)));
     }
    //add password to textbox/ display area
-   document.getElementById("display").values = password;
+   document.getElementById("display").value = password;
 }
  
