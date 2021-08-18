@@ -15,5 +15,9 @@ function generate(){
     }
    //add password to textbox/ display area
    document.getElementById("display").value = password;
+
+   //add password to previously generated passwords section
+   document.getElementById("LastNums").innerHTML += password + "<br />";
+
 }
  
