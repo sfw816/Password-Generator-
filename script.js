@@ -14,6 +14,6 @@ function generate(){
         password = password.values.charAt(Math.floor(Math.random() * Math.floor(values.length -1)));
     }
    //add password to textbox/ display area
-   document.getElementById("display").value = password;
+   document.getElementById("display").values = password;
 }
  
